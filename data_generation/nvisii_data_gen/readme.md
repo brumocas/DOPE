@@ -54,7 +54,45 @@ The major parameters are as follows:
 - `--nb_frames` number of images to export.
 - `--outf` folder to store the data. 
 - `--nb_objects` the number of objects to load, this can reload the same object multiple times. 
-- `--nb_distractors` how many objects to add as distractors, this uses 3D models from Google scanned objects. 
+- `--nb_distractors` how many objects to add as distractors, this uses 3D models from Google scanned objects.
+
+
+## Example (CRIS)
+
+### Example1
+
+Example to generate a dataset with 100 frame, using a specific object file and various settings:
+
+```bash
+python single_video_pybullet.py \
+  --nb_frames 1 \
+  --scale 0.01 \
+  --skyboxes_folder ../dome_hdri_haven/ \
+  --objs_folder_distrators ../distractors/models/ \
+  --path_single_obj ../models/Multi_side_bracket/multi_side_bracket_painted.obj \
+  --nb_objects 5 \
+  --nb_distractors 10 
+```
+
+### Example2 
+
+Example to generate a dataset with 1 frame, using a specific object file, an image resolution of 1920x1080, and various settings:
+
+```bash
+python single_video_pybullet.py \
+  --nb_frames 1 \
+  --scale 0.025 \
+  --skyboxes_folder ../dome_hdri_haven/ \
+  --objs_folder_distrators ../distractors/models/ \
+  --path_single_obj ../models/Multi_side_bracket/multi_side_bracket_painted.obj \
+  --nb_objects 5 \
+  --nb_distractors 10 \
+  --spp 100 \
+  --width 1920 \
+  --height 1080
+```
+
+
 
 # Adding your own 3D models 
 

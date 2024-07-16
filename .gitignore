@@ -9,3 +9,5 @@ venv
 *.hdr
 google_scanned_models/
 scripts/nvisii_data_gen/output/dataset/
+weights/
+data_generation/distractors/models_2
