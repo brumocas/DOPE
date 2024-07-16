@@ -195,3 +195,17 @@ This symmetry handling scheme allows the data generation script to compute consi
 Further note that specifying symmetries also improves the recognition results for "almost-symmetrical" objects, where there are only minor non-symmetrical parts, such as most of the objects from the [T-LESS dataset](https://bop.felk.cvut.cz/datasets/).
 
 
+## Validate Data
+
+To validate the generated data run the following python script:
+
+```bash
+python validate_data.py JSON_FILE_PATH
+```
+
+### Example
+```bash
+python validate_data.py ./check_annotations/sample_data/000001.json 
+```
+
+This script will generate an image with the expected annotations if correct.
