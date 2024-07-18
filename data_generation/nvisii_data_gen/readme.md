@@ -81,13 +81,13 @@ Example to generate a dataset with 1 frame, using a specific object file, an ima
 ```bash
 python single_video_pybullet.py \
   --nb_frames 1 \
-  --scale 0.025 \
+  --scale 0.01 \
   --skyboxes_folder ../dome_hdri_haven/ \
   --objs_folder_distrators ../distractors/models/ \
   --path_single_obj ../models/Multi_side_bracket/multi_side_bracket_painted.obj \
   --nb_objects 5 \
   --nb_distractors 10 \
-  --spp 100 \
+  --spp 1000 \
   --width 1920 \
   --height 1080
 ```
