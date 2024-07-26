@@ -28,7 +28,7 @@ sudo docker build -t dope_training_image .
 Run the Docker container with access to all GPUs on your host machine and mount a local directory to persist data:
 
 ```bash
-sudo docker run --gpus all -it -v /home/bruno/Master/Deep_Object_Pose/train/docker/data:/workspace/dope_training/data dope_training_image
+sudo docker run --gpus all -it -v /home/bruno/Master/DOPE/train/docker/data:/workspace/dope_training/data dope_training_image
 ```
 In this example, `$(pwd)/data` on the host machine is mounted to `/workspace/dope_training/data` in the container. Any changes in this directory will be saved to the host.
 

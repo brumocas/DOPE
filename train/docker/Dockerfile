@@ -1,9 +1,9 @@
 FROM nvcr.io/nvidia/pytorch:21.02-py3
 
 # make sure to run ./get_nvidia_libs.sh before running docker build 
-COPY drivers/* /usr/lib/x86_64-linux-gnu/
+#COPY drivers/* /usr/lib/x86_64-linux-gnu/
 #COPY drivers/libnvoptix.so.1 /usr/lib/x86_64-linux-gnu/
-#COPY drivers/*nvidia* /usr/lib/x86_64-linux-gnu/
+COPY drivers/*nvidia* /usr/lib/x86_64-linux-gnu/
 
 # Note, installing manually instead of using pip install -r requirements.txt because 
 # the base PyTorch container already has some dependencies installed. Installing using 
