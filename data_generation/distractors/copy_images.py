@@ -51,6 +51,6 @@ def iter_folders(path):
             copy_images(source_folder, destination_folder, image_extensions=['.png'])
 
 # Path to root directory where distractors are saved
-path = '../../Deep_Object_Pose/data_generation/distractors/'
+path = 'models/'
 iter_folders(path)
 
