@@ -11,5 +11,6 @@ google_scanned_models/
 scripts/nvisii_data_gen/output/dataset/
 weights/
 data_generation/distractors/models
-data_generation/data_set
+data/
 inference/output
+.vscode/
