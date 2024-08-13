@@ -25,7 +25,7 @@ Run the blenderproc script in five parallel jobs, each generating 1000 frames. E
 #### Example2:
 Run the blenderproc script in five parallel jobs, each generating 1000 frames. Each frame will have six instances of the object and ten randomly chosen distractor objects:
 ```
-./run_blenderproc_datagen.py --nb_runs 5 --nb_frames 1000 --path_single_obj ../models/Multi_side_bracket/multi_side_bracket_painted.obj --nb_objects 6 --distractors_folder ../distractors/models/ --nb_distractors 10 --backgrounds_folder ../dome_hdri_haven/
+./run_blenderproc_datagen.py --nb_runs 5 --nb_frames 1000 --path_single_obj ../models/Multi_side_bracket/multi_side_bracket.obj --nb_objects 6 --distractors_folder ../distractors/models/ --nb_distractors 10 --backgrounds_folder ../dome_hdri_haven/ --scale 10
 ```
 
 Parameters of the top-level script can be shown by running
