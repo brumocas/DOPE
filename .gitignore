@@ -11,6 +11,8 @@ google_scanned_models/
 scripts/nvisii_data_gen/output/dataset/
 weights/
 data_generation/distractors/models
+data_generation/dome_hdri_haven/*.hdr
+data_generation/dome_hdri_haven/*.txt
 data/
 inference/output
 .vscode/
