@@ -1,1 +1,0 @@
-field,mist,cloud,grass,outdoor,skies,nature,sunrise-sunset,overcast,low contrast,natural light

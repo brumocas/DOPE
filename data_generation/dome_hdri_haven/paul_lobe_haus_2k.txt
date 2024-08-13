@@ -1,1 +1,0 @@
-architecture,berlin,germany,autumn,glass,skylight,outdoor,indoor,urban,midday,overcast,medium contrast,natural light

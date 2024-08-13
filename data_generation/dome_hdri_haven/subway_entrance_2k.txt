@@ -1,1 +1,0 @@
-tile,fluorescent,stair,map,tunnel,station,escalator,indoor,urban,midday,medium contrast,artificial light

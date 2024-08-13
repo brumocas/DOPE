@@ -1,1 +1,0 @@
-couch,wood,lamp,table,indoor,urban,high contrast,artificial light

@@ -1,1 +1,0 @@
-lamp,car,parking,road,garage,underground,indoor,urban,natural light,high contrast

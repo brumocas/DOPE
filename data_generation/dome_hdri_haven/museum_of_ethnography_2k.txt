@@ -1,1 +1,0 @@
-museum,antique,display,indoor,urban,medium contrast,artificial light

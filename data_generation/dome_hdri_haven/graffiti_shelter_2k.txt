@@ -1,1 +1,0 @@
-tree,shelter,bench,road,path,graffiti,hut,autumn,indoor,urban,midday,overcast,medium contrast,natural light

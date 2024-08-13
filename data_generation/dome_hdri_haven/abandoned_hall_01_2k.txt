@@ -1,1 +1,0 @@
-hall,window,abandoned,indoor,urban,low contrast,natural light

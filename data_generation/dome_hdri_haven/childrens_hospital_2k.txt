@@ -1,1 +1,0 @@
-bed,ward,medical,hospital,room,indoor,urban,high contrast,artificial light

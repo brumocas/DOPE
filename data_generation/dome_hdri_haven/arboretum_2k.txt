@@ -1,1 +1,0 @@
-lake,water,path,dam,bridge,tree,dirt,road,outdoor,nature,sunrise-sunset,partly cloudy,medium contrast,natural light

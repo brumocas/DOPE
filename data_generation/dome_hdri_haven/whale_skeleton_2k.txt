@@ -1,1 +1,0 @@
-museum,bone,whale,skeleton,indoor,urban,medium contrast,artificial light

@@ -1,1 +1,0 @@
-road,parking,pillar,indoor,urban,medium contrast,natural light

@@ -1,1 +1,0 @@
-bed,table,hospital,lamp,medical,operation,indoor,urban,medium contrast,artificial light

@@ -1,1 +1,0 @@
-sun,highway,bridge,walkway,railing,suspension,overpass,outdoor,urban,sunrise-sunset,partly cloudy,high contrast,natural light

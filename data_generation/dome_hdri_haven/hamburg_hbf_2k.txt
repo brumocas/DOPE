@@ -1,1 +1,0 @@
-hall,windows,sun,train,station,indoor,urban,morning-afternoon,medium contrast,natural light

@@ -1,1 +1,0 @@
-couch,bar,bottle,incandescent,set,lounge,indoor,urban,high contrast,artificial light

@@ -1,1 +1,0 @@
-sun,road,hill,rock,ocean,town,outdoor,skies,nature,morning-afternoon,partly cloudy,high contrast,natural light

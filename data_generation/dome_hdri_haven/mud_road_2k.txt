@@ -1,1 +1,0 @@
-road,path,field,farm,outdoor,skies,nature,midday,overcast,low contrast,natural light

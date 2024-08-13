@@ -1,1 +1,0 @@
-tree,rail,track,rock,forest,tunnel,outdoor,nature,morning-afternoon,clear,lowcontrast

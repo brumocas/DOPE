@@ -1,1 +1,0 @@
-grass,tree,bench,park,fence,hill,lake,dam,sun,outdoor,skies,nature,midday,partly cloudy,high contrast,natural light

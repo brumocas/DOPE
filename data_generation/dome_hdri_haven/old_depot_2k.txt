@@ -1,1 +1,0 @@
-warehouse,abandoned,industrial,indoor,urban,morning-afternoon,clear,low contrast,natural light

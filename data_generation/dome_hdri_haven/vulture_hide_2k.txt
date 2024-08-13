@@ -1,1 +1,0 @@
-hide,bench,brick,window,indoor,urban,medium contrast,natural light

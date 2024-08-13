@@ -1,1 +1,0 @@
-tree,road,sun,hill,outdoor,skies,nature,sunrise-sunset,partly cloudy,low contrast,natural light

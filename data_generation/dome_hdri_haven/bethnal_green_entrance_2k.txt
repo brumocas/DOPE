@@ -1,1 +1,0 @@
-tree,europe,street,brick,fence,london,outdoor,urban,morning-afternoon,overcast,low contrast,natural light

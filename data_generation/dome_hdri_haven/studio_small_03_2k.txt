@@ -1,1 +1,0 @@
-lamp,studio,photo,umbrella,indoor,urban,studio,high contrast,artificial_light

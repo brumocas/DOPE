@@ -1,1 +1,0 @@
-tree,shop,building,city,police,district,outdoor,urban,night,clear,high contrast,artificial light

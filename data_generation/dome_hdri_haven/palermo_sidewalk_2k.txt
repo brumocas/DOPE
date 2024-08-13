@@ -1,1 +1,0 @@
-street,europe,alley,plant,stair,couch,cobblestone,outdoor,urban,morning-afternoon,clear,low contrast,natural light

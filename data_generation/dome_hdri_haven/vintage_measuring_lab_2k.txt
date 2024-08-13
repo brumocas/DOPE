@@ -1,1 +1,0 @@
-machine,industrial,workshop,laboratory,indoor,urban,medium contrast,natural light,artificial light

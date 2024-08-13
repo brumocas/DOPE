@@ -1,1 +1,0 @@
-tree,building,road,hill,outdoor,urban,sunrise-sunset,partly cloudy,low contrast,natural light

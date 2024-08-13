@@ -1,1 +1,0 @@
-machine,industrial,pipes,factory,indoor,urban,low contrast,natural light,artificial light

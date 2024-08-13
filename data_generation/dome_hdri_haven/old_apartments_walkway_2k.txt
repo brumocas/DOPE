@@ -1,1 +1,0 @@
-tree,railing,abandoned,balcony,indoor,urban,midday,clear,low contrast,natural light

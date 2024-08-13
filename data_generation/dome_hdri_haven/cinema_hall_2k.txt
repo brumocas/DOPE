@@ -1,1 +1,0 @@
-movie,cinema,chair,seat,projector,theater,indoor,urban,medium contrast,artificial light

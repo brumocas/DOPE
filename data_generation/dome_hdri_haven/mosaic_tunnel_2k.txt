@@ -1,1 +1,0 @@
-path,tunnel,tiles,concrete,pipe,art,fluorescent,lamp,indoor,urban,medium contrast,artificial light

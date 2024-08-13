@@ -1,1 +1,0 @@
-snow,winter,tree,building,apartments,bridge,path,outdoor,urban,night,overcast,medium contrast,artificial light

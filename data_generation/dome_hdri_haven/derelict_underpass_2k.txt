@@ -1,1 +1,0 @@
-bridge,road,rubber,abandoned,highway,outdoor,urban,midday,clear,low contrast,natural light

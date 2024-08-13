@@ -1,1 +1,0 @@
-tree,hill,rock,cross,view,step,grass,outdoor,nature,morning-afternoon,partly cloudy,low contrast,natural light

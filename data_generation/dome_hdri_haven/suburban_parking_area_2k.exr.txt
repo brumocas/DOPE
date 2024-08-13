@@ -1,1 +1,0 @@
-road,parking,house,bush,hedge,suburb,curve,europe,outdoor,urban,sunrise-sunset,clear,low contrast,natural light

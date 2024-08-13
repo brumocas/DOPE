@@ -1,1 +1,0 @@
-street,alley,city,asphalt,building,europe,london,road,fence,outdoor,urban,morning-afternoon,overcast,low contrast,natural light

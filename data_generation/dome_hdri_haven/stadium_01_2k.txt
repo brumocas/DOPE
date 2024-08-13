@@ -1,1 +1,0 @@
-stadium,field,grass,football,soccer,outdoor,urban,sunrise-sunset,clear,low contrast,natural light

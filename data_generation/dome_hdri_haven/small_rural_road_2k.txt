@@ -1,1 +1,0 @@
-field,road,path,asphalt,gravel,dirt,outdoor,skies,nature,midday,partly cloudy,low contrast,natural light

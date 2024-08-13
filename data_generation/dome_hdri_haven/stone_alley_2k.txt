@@ -1,1 +1,0 @@
-alley,europe,italy,cobblestone,rock,narrow,outdoor,urban,midday,partly cloudy,medium contrast,natural light

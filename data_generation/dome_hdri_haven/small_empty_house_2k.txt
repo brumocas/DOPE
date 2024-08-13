@@ -1,1 +1,0 @@
-house,tile,lamp,door,indoor,urban,morning-afternoon,medium contrast,natural light

@@ -1,1 +1,0 @@
-lamp,studio,photo,indoor,studio,urban,high contrast,artificial_light

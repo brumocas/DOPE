@@ -1,1 +1,0 @@
-road,london,europe,street,apartment,asphalt,outdoor,urban,morning-afternoon,overcast,low contrast,natural light

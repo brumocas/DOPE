@@ -1,1 +1,0 @@
-painting,canvas,window,art,indoor,urban,midday,low contrast,natural light

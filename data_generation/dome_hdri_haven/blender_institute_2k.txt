@@ -1,1 +1,0 @@
-blender,timber,computer,chair,lamp,people,indoor,urban,low contrast,artificial light

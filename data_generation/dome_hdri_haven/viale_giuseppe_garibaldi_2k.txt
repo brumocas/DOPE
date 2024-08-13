@@ -1,1 +1,0 @@
-tree,europe,lamp,stone,gravel,statue,fence,path,park,outdoor,urban,night,clear,high contrast,artificial light
