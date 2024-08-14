@@ -6,7 +6,7 @@ downscale_height: 400      # if the input image is larger than this, scale it do
 
 # Comment any of these lines to prevent detection / pose estimation of that object
 weights: {
-    "models":"package://dope/weights/models.pth",
+    "reinforced_bracket":"package://dope/myscripts/weights/models.pth",
     #"cracker":"package://dope/weights/cracker_60.pth",
     # "gelatin":"package://dope/weights/gelatin_60.pth",
     # "meat":"package://dope/weights/meat_20.pth",
@@ -49,7 +49,7 @@ weights: {
 
 # Cuboid dimension in cm x,y,z
 dimensions: {
-    "models": [10.86,4.14,5.73],
+    "reinforced_bracket": [10.86,4.14,5.73],
     "cracker": [16.403600692749023,21.343700408935547,7.179999828338623],
     "gelatin": [8.918299674987793, 7.311500072479248, 2.9983000755310059],
     "meat": [10.164673805236816,8.3542995452880859,5.7600898742675781],
@@ -90,7 +90,7 @@ dimensions: {
 }
 
 class_ids: {
-    "models": 0,
+    "reinforced_bracket": 0,
     "cracker": 1,
     "gelatin": 2,
     "meat":    3,
@@ -129,7 +129,7 @@ class_ids: {
 }
 
 draw_colors: {
-    "models": [13, 200, 128],  # green
+    "reinforced_bracket": [217,12, 232],  # magenta
     "cracker": [13, 255, 128],  # green
     "gelatin": [255, 255, 255],  # while
     "meat": [0, 104, 255],  # blue
@@ -162,7 +162,7 @@ meshes: {
 
 # optional: If the specified meshes are not in meters, provide a scale here (e.g. if the mesh is in centimeters, scale should be 0.01). default scale: 1.0.
 mesh_scales: {
-    "models":  0.01,
+    "reinforced_bracket":  0.01,
     "cracker": 0.01,
     "gelatin": 0.01,
     "meat":    0.01,
