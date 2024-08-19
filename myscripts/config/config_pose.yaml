@@ -6,7 +6,7 @@ downscale_height: 400      # if the input image is larger than this, scale it do
 
 # Comment any of these lines to prevent detection / pose estimation of that object
 weights: {
-    "reinforced_bracket":"package://dope/myscripts/weights/rf_10k.pth",
+    "reinforced_bracket":"package://dope/myscripts/weights/net_rb_70k_3.pth",
 }
 
 # Cuboid dimension in cm x,y,z
@@ -20,7 +20,7 @@ class_ids: {
 }
 
 draw_colors: {
-    "reinforced_bracket": [217,12, 232],  # magenta
+    "reinforced_bracket": [255, 0, 0],  # red
 }
 
 # optional: If the specified meshes are not in meters, provide a scale here (e.g. if the mesh is in centimeters, scale should be 0.01). default scale: 1.0.
