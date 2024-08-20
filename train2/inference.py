@@ -211,7 +211,8 @@ class DopeNode(object):
                 self.pnp_solvers[m],
                 img,
                 self.config_detect,
-                make_belief_debug_img=True
+                grid_belief_debug = opt.showbelief
+               #make_belief_debug_img=True
             )
             # print(results)
             # print('---')

@@ -493,8 +493,8 @@ class ObjectDetector(object):
             for j in range(tensor.size()[0]):
                 belief = tensor[j].clone()
                 if norm_belief:
-                    belief -= float(torch.min(belief)[0].data.cpu().numpy())
-                    belief /= float(torch.max(belief)[0].data.cpu().numpy())
+                    belief -= float(torch.min(belief).item())
+                    belief /= float(torch.max(belief).item())
 
                 belief = (
                     upsampling(belief.unsqueeze(0).unsqueeze(0))
