@@ -54,7 +54,7 @@ Before using this Docker container, ensure you have the following installed:
 
    Example:
    ```bash
-   ./run_container.sh home/bruno/Workspace/Master/DOPE/data /workspace/DOPE/data
+   ./run_container.sh /home/bruno/Workspace/Master/DOPE/data /workspace/DOPE/data
    ```
 
    This shell script provides access to all GPUs on the host machine and mounts the host directory `home/bruno/Workspace/Master/DOPE/data` to `/workspace/DOPE/data` in the container. Any modifications to the mounted directory will be reflected on the host.
