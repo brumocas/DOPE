@@ -6,37 +6,45 @@ downscale_height: 400      # if the input image is larger than this, scale it do
 
 # Comment any of these lines to prevent detection / pose estimation of that object
 weights: {
-    "reinforced_bracket":"../myscripts/weights/net_rb_70k_3.pth",
+    "reinforced_bracket":"../myscripts/weights/net_rb_70k_4.pth",
+    "cracker":"../myscripts/weights/net_cracker_83k_1.pth"
 }
 
 # Type of neural network architecture
 architectures: {
-    'reinforced_bracket':"dope",  
+    'reinforced_bracket':dope",
+    'cracker':"dope",
 }
 
 # Cuboid dimension in cm x,y,z
-# From meshlab tCuboid dimension in cm y,z,x
+# From meshlab Cuboid dimension in cm y,z,x
 dimensions: {
-    "reinforced_bracket": [6.7643, 4.8871, 12.8142],    
+    "reinforced_bracket": [6.7643, 4.8871, 12.8142],
+    #"reinforced_bracket": [12.8142, 6.7643, 4.8871],
+    "cracker": [21.343700408935547, 7.179999828338623, 16.403600692749023],
+    #"cracker": [16.403600692749023,21.343700408935547,7.179999828338623]
 }
 
 class_ids: {
     "reinforced_bracket": 0,
+    "cracker": 1,
 }
 
 draw_colors: {
     "reinforced_bracket": [255, 0, 0],  # red
+    "cracker": [13, 255, 128],  # green
 }
 
 # optional: If the specified meshes are not in meters, provide a scale here (e.g. if the mesh is in centimeters, scale should be 0.01). default scale: 1.0.
 mesh_scales: {
     "reinforced_bracket":  0.01,
+    "cracker": 0.01,
 }
 
 overlay_belief_images: True   # Whether to overlay the input image on the belief images published on /dope/belief_[obj_name]
 
 # Config params for DOPE
 thresh_angle: 0.5
-thresh_map: 0.01
+thresh_map: 0.0001
 sigma: 3
 thresh_points: 0.1
