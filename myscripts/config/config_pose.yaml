@@ -6,8 +6,9 @@ downscale_height: 400      # if the input image is larger than this, scale it do
 
 # Comment any of these lines to prevent detection / pose estimation of that object
 weights: {
-    "reinforced_bracket":"../myscripts/weights/net_rb_70k_4.pth",
-    "cracker":"../myscripts/weights/net_cracker_83k_1.pth"
+    #"reinforced_bracket":"../myscripts/weights/net_rb_70k_4.pth",
+    #"cracker":"../weights/cracker_original_000.pth",
+    "cracker":"../myscripts/weights/net_cracker_83k_2.pth"
 }
 
 # Type of neural network architecture
@@ -21,13 +22,27 @@ architectures: {
 dimensions: {
     "reinforced_bracket": [6.7643, 4.8871, 12.8142],
     #"reinforced_bracket": [12.8142, 6.7643, 4.8871],
-    "cracker": [21.343700408935547, 7.179999828338623, 16.403600692749023],
-    #"cracker": [16.403600692749023,21.343700408935547,7.179999828338623]
+    # For my training
+    "cracker": [7.179999828338623, 16.403600692749023, 21.343700408935547],
+    # For paper weights
+    #"cracker": [16.403600692749023, 21.343700408935547,7.179999828338623] 
 }
 
 class_ids: {
     "reinforced_bracket": 0,
     "cracker": 1,
+}
+
+# optional: provide a transform that is applied to the pose returned by DOPE
+model_transforms: {
+#    "cracker": [[ 0,  0,  1,  0],
+#                [ 0, -1,  0,  0],
+#                [ 1,  0,  0,  0],
+#                [ 0,  0,  0,  1]]
+}
+
+meshes: {
+    "cracker": "file://../data_generation/models/Cracker/google_16k/textured.obj",
 }
 
 draw_colors: {
