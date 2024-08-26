@@ -77,7 +77,7 @@ def draw_cuboid(image, cuboid_coords, name, vertices=False, numbers=False, ref=F
     # Draw the vertex numbers
     if numbers:
         for i, (x, y) in enumerate(image_coords):
-            cv2.putText(image, str(i), (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+            cv2.putText(image, str(i), (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
 
     # Draw debug markers for cuboid corners
     if vertices:
