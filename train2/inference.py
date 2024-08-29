@@ -255,8 +255,11 @@ class DopeNode(object):
                     for pair in result['projected_points']:
                         points2d.append(tuple(pair))
                     draw.draw_cube(points2d, self.draw_colors[m])
-        # save the output of the image. 
+        # save the output of the image.
+        if not opt.data:  
+            img_name = img_name + ".png"
         im.save(f"{output_folder}/{img_name}")
+
         if beliefs is not None:
             beliefs.save(f"{output_folder}/{img_name[:img_name.rfind('.')]}_belief.png")
 
