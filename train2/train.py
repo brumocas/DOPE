@@ -159,6 +159,7 @@ if isinstance(opt.extensions, str):
     opt.extensions = eval(opt.extensions)
 
 if isinstance(opt.objects, str):
+    print("Class to train on", opt.objects)
     opt.objects = eval(opt.objects)
 
 try:
