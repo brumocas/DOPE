@@ -13,7 +13,7 @@ parser.add_argument('--ref', action='store_true', help='Enable referencial assig
 args = parser.parse_args()
 
 # Ensure the annotated directory exists
-output_dir = "./annotated/"
+output_dir = "/home/bruno/Workspace/Master/BII/DOPE/myscripts/correct_dataset/test/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Paths to the input image and JSON file
