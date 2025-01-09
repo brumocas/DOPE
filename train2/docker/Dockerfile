@@ -23,4 +23,3 @@ RUN pip install -r requirements.txt
 # Upgrade pip and install Python dependencies
 RUN pip install --upgrade pip && \
     pip install numpy==1.24.4 scipy albumentations==1.4.13 albucore==0.0.13 scikit-image opencv-python-headless==4.10.0.84
-

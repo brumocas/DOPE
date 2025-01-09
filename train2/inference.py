@@ -109,8 +109,7 @@ class DopeNode(object):
         self.config_detect.mask_edges = 1
         self.config_detect.mask_faces = 1
         self.config_detect.vertex = 1
-        #self.config_detect.threshold = 0.5
-        self.config_detect.threshold = 0.1
+        self.config_detect.threshold = 0.5
         self.config_detect.softmax = 1000
         self.config_detect.thresh_angle = config['thresh_angle']
         self.config_detect.thresh_map = config['thresh_map']
@@ -255,8 +254,11 @@ class DopeNode(object):
                     for pair in result['projected_points']:
                         points2d.append(tuple(pair))
                     draw.draw_cube(points2d, self.draw_colors[m])
-        # save the output of the image. 
+        # save the output of the image.
+        if not opt.data:  
+            img_name = img_name + ".png"
         im.save(f"{output_folder}/{img_name}")
+
         if beliefs is not None:
             beliefs.save(f"{output_folder}/{img_name[:img_name.rfind('.')]}_belief.png")
 

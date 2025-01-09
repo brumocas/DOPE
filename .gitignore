@@ -16,3 +16,8 @@ data_generation/dome_hdri_haven/*.txt
 data/
 inference/output
 .vscode/
+my_env/
+.python-version
+correct_dataset/test
+correct_dataset/data
+train2/out_experiment
